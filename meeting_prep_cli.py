@@ -521,4 +521,11 @@ Examples:
 
 
 if __name__ == "__main__":
+    load_dotenv()
+    
+    # Check if API key is set
+    if not os.getenv('OPENAI_API_KEY'):
+        console.print("[red]Error:[/red] OPENAI_API_KEY environment variable not set")
+        console.print("Please set it using: export OPENAI_API_KEY='your-api-key'")
+        sys.exit(1)
     main()
