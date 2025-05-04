@@ -53,7 +53,7 @@ class OpenAIManager:
     def enhance_section(self, section_name: str, content: str) -> str:
         """Enhance a specific section with additional analysis"""
         response = self.client.chat.completions.create(
-            model="gpt-4-turbo-preview",
+            model="gpt-4o",
             messages=[
                 {"role": "system", "content": f"You are enhancing the '{section_name}' section of a technical briefing."},
                 {"role": "user", "content": f"Enhance this section with more detailed analysis:\n\n{content}"}

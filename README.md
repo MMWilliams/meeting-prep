@@ -70,6 +70,21 @@ The Meeting Prep CLI Tool addresses a common challenge faced by engineers: prepa
 
 ## 🔧 Installation
 
+## Setup venv first
+```bash
+
+# Create virtual environment
+python -m venv venv
+
+# Activate virtual environment
+# On Unix/macOS:
+source venv/bin/activate
+# On Windows:
+.\venv\Scripts\activate
+```
+
+
+
 ### Install directly from repo
 ```bash
 pip install git+https://github.com/mmwilliams/meeting-prep.git
@@ -81,7 +96,7 @@ git clone https://github.com/mmwilliams/meeting-prep.git
 cd meeting-prep
 ```
 
-```
+
 
 ### 2. Set Up Python Environment
 ```bash
@@ -318,10 +333,22 @@ ls -la pdf_test.pdf  # Verify file creation
 
 ## ⚙️ Configuration
 
+
+
+### Simply export API key
+Export api key
+```env
+export OPENAI_API_KEY="your_actual_api_key_here"
+
+```
+
 ### Environment Variables
 Create a `.env` file with the following variables:
 ```env
+
 # Required
+echo 'OPENAI_API_KEY="your_actual_api_key_here"' > .env
+# or this approach
 OPENAI_API_KEY=your_openai_api_key_here
 
 # Optional
