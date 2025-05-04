@@ -1,0 +1,10 @@
+include README.md
+include requirements.txt
+include LICENSE
+include .env.example
+include meeting_prep_cli.py
+recursive-include src *.py
+recursive-include tests *.py
+global-exclude *.pyc
+global-exclude __pycache__
+global-exclude .DS_Store
