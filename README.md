@@ -70,10 +70,17 @@ The Meeting Prep CLI Tool addresses a common challenge faced by engineers: prepa
 
 ## 🔧 Installation
 
-### 1. Clone the Repository
+### Install directly from repo
 ```bash
+pip install git+https://github.com/yourusername/meeting-prep.git
+```
+
+```bash
+
 git clone https://github.com/yourusername/meeting-prep.git
 cd meeting-prep
+```
+
 ```
 
 ### 2. Set Up Python Environment
