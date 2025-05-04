@@ -72,12 +72,12 @@ The Meeting Prep CLI Tool addresses a common challenge faced by engineers: prepa
 
 ### Install directly from repo
 ```bash
-pip install git+https://github.com/yourusername/meeting-prep.git
+pip install git+https://github.com/mmwilliams/meeting-prep.git
 ```
 
 ```bash
 
-git clone https://github.com/yourusername/meeting-prep.git
+git clone https://github.com/mmwilliams/meeting-prep.git
 cd meeting-prep
 ```
 
@@ -463,7 +463,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 For support, please:
 1. Check the [Troubleshooting](#troubleshooting) section
-2. Search existing [GitHub Issues](https://github.com/yourusername/meeting-prep/issues)
+2. Search existing [GitHub Issues](https://github.com/mmwilliams/meeting-prep/issues)
 3. Create a new issue with detailed information
 
 ## 🗺️ Roadmap
