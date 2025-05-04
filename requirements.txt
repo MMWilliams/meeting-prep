@@ -1,0 +1,14 @@
+openai>=1.0.0
+python-dotenv
+spacy>=3.0.0
+presidio-analyzer
+presidio-anonymizer
+PyPDF2
+Pillow
+pytesseract
+python-pptx
+python-docx
+chardet
+reportlab
+rich
+tenacity
